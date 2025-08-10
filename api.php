@@ -45,12 +45,12 @@ echo $p."\033[1;36m╚═══════════════════�
 $pil = readline($p."\n\033[1;32m[🔸]\033[0m Pilih Menu\033[1;31m: \033[1;33m");
 
 if($pil == "1"){
-    system("xdg-open https://t.me/config_geratis");
+    system("xdg-open ");
     sleep(1);
     echo $p."\033[1;31m[!]\033[0m Run lagi dengan ketik\033[1;33m php terminal.php\033[0m\n\n";
     exit();
 }elseif($pil == "2"){
-    system("xdg-open https://youtube.com/@Inject1D?feature=shared");
+    system("xdg-open ");
     sleep(1);
     echo $p."\033[1;31m[!]\033[0m Run lagi dengan ketik\033[1;33m php terminal.php\033[0m\n\n";
     exit();
@@ -60,12 +60,12 @@ if($pil == "1"){
     echo $p."\033[1;31m[!]\033[0m Run lagi dengan ketik\033[1;33m php terminal.php\033[0m\n\n";
     exit();
 }elseif($pil == "5"){
-    system("xdg-open https://wa.me/6283879017166");
+    system("xdg-open ");
     sleep(1);
     echo $p."\033[1;31m[!]\033[0m Run lagi dengan ketik\033[1;33m php terminal.php\033[0m\n\n";
     exit();
 }elseif($pil == "6"){
-    system("xdg-open https://scfaucet.site");
+    system("xdg-open ");
     sleep(1);
     echo $p."\033[1;31m[!]\033[0m Run lagi dengan ketik\033[1;33m php terminal.php\033[0m\n\n";
     exit();
@@ -286,5 +286,6 @@ echo $p."\033[1;36m║\033[1;32m ✅\033[0m Proses selesai! Terima kasih telah m
 echo $p."\033[1;36m╚══════════════════════════════════════════════════════════════╝\033[0m\n\n";
 
 }
+
 
 ?> 
